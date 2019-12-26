@@ -1,4 +1,5 @@
 ﻿using System;
+using TareaFinal.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace TareaFinal
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ListViewContact();
         }
 
         protected override void OnStart()
