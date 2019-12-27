@@ -29,5 +29,10 @@ namespace TareaFinal
         {
             // Handle when your app resumes
         }
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
