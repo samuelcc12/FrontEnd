@@ -12,6 +12,7 @@
         using Newtonsoft.Json;
         using Plugin.Connectivity;
         using Models;
+        using TareaFinal.Models.App.Models;
 
         public class ApiService
         {
@@ -27,7 +28,7 @@
                 }
 
 
-                bool isReachable = VerifyConnectionURL("https://productosi220.azurewebsites.net/");
+                bool isReachable = VerifyConnectionURL("http://localhost:54274");
                 if (!isReachable)
                 {
                     return new Response
